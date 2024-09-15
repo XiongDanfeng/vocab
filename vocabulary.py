@@ -3,7 +3,7 @@ words = {
               [])],
     "desert": [],
     "surrogate": [("a person who acts or speaks in support of someone else, or does his or her job for a certain time:",
-                   ["High-profile surrogates like that speaking on behalf of Harris"])]
+                   ["High-profile surrogates like that speaking on behalf of Harris"])],
     "espouse": [("to support an activity or opinion:",
                  ["Harris is now embracing cutting red tape and cutting taxes, principles that have traditionally been espoused by Republicans. ",
                   ])]
