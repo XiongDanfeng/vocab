@@ -18,6 +18,10 @@ nonelist = {
     'affiliate': [('',[])],
     'teamster': [('someone who drives a truck as a job', [])],
 }
+
+nonephase = {
+    'standing ovation': [('', ['an occasion when the people in an audience stand up to clap at the end of a performance or speech because they liked it very much'])]
+}
 # [('', [])]
 verblist = {
     "engender": ("to make people have a particular feeling or make a situation start to exist", ["who engenders confidence or could do the job"]),
@@ -25,13 +29,25 @@ verblist = {
     'debunk': ('expose the falseness or hollowness of (an idea or belief).', [' the Republican governor of Ohio all debunked this story about people eating pets',]),
     'diehard': ('continuing to support something in spite of opposition',[]),
     'foresee':  [('to know about something before it happens:', [])],
-    'concur': [('be of the same opinion; agree.', ['..what she concurred with'])]
+    'concur': [('be of the same opinion; agree.', ['..what she concurred with'])],
+    'reconcile': [('to find a way in which two situations or beliefs that are opposed to each other can agree and exist together:',
+                   [" He's always said, I'm not anti-vax. but then he says things like that, So how do you reconcile those two things together?"])],
 }
+
+# [('', [])]
+verbphase = {
+    'parade across': [('', ['RFK got the most standing ovation and the largest applause of anyone he paraded across the stage'])],
+    'peel off': [('remove a thin outer covering or layer.', [
+        'her travel to these more rural in an attempt to peel off voters from former President Donald Trump.'
+    ])],
+}
+
+
 # [('', [])]
 adjlist = {
     'oblique': [('having a sloping direction, angle, or position', ['Trump talks about these things in very oblique ways. '])],
     'excruciating ': [('extremely painful', [])],
-    'compelling': [('If a reason, argument, etc. is compelling, it makes you believe it or accept it because it is so strong': [])]
+    'compelling': [('If a reason, argument, etc. is compelling, it makes you believe it or accept it because it is so strong', [])],
     'repulsive': [('extremely unpleasant or unacceptable',
                    ['...the governor to say something so repulsive and so out of touch.',
                     ])],
@@ -45,6 +61,8 @@ advlist = {
                     ['how people are feeling actually want to get underneath'])],
 
 }
+
+
 
 idomlist = {
     "in light of sth": (' because of certain knowledge now in hand; considering something', [
@@ -63,12 +81,6 @@ phrase = {
                           ]),
     'mail out': ('If someone mails out things such as letters, leaflets, or bills, they send them to a large number of people at the same time',
                  ['the first absentee ballots were mailed out'])
-}
-
-verbphrase = {
-    'peel off': [('remove a thin outer covering or layer.', [
-        'her travel to these more rural in an attempt to peel off voters from former President Donald Trump.'
-    ])],
 }
 
 adverbphrase = {
