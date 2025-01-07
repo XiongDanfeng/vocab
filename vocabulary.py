@@ -104,3 +104,10 @@ gram_sentences = [
     "interest rates for businesses have been high just as they have been for consumers. ",
     'what was happening in our country, what has been happening in our country to Black men and men of color '
 ]
+
+senario = {
+    'introduce': ['um maybe we just wait a couple of minutes um for people to join',
+                  'cool so maybe just little bit about myself']
+
+}
+
