@@ -54,6 +54,8 @@ adjlist = {
     'adamantly': [('in a way that means it is impossible to persuade you or make you change your opinion or decision',
                    ["people who were adamantly supporting former president but they don't want to hear the truth",
                     ])],
+    'self-inflicted': [('caused by your own actions', ['police say Livelsberger died of a self-inflicted gunshot wound to the head just before the explosion.'])],
+
 }
 # [('', [])]
 advlist = {
@@ -73,6 +75,7 @@ idomlist = {
                       ])
 }
 
+# [('', [])]
 phrase = {
     "mince no words": ("to speak in a very direct and honest way without worrying about offending someone",
                        []),
@@ -80,7 +83,15 @@ phrase = {
                          ["the close connection between Trump and Robinson does have Republicans biting their nails",
                           ]),
     'mail out': ('If someone mails out things such as letters, leaflets, or bills, they send them to a large number of people at the same time',
-                 ['the first absentee ballots were mailed out'])
+                 ['the first absentee ballots were mailed out']),
+    'shore something up': [('',
+                            ['the Biden administration tried to really shore up that problem by hiring 1,800 new controllers just last year.'])]
+
+}
+
+synonyme = {
+    'right now': ['at this time']
+
 }
 
 adverbphrase = {
@@ -98,11 +109,12 @@ shotphrase = ["Listen to what they said.",
           "does that matter?",
           'for obvious reasons',
           'all across the different states',
+          'than it was supposed to be',
           ]
 
 gram_sentences = [
     "interest rates for businesses have been high just as they have been for consumers. ",
-    'what was happening in our country, what has been happening in our country to Black men and men of color '
+    'what was happening in our country, what has been happening in our country to Black men and men of color ',
 ]
 
 senario = {
