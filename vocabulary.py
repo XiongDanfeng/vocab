@@ -90,7 +90,8 @@ phrase = {
 }
 
 synonyme = {
-    'right now': ['at this time']
+    'right now': [('at this time',''),],
+    'sometimes': [('at times', 'I fly a single engine airplane, and I fly it over populated areas at times.'), ],
 
 }
 
